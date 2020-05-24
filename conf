@@ -1,0 +1,40 @@
+CoQA_TRAIN_FILE data/coqa-train-v1.0.json
+CoQA_TEST_FILE data/coqa-dev-v1.0.json
+
+DROPOUT 0.3
+
+BERT
+BERT_LARGE
+dropout_emb 0.4
+
+LOCK_BERT
+BERT_LINEAR_COMBINE
+BERT_Tokenizer_file bert-base-cased/bert-base-cased-vocab.txt
+BERT_model_file bert-base-cased/
+BERT_large_tokenizer_file bert-large-uncased/bert-large-uncased-vocab.txt
+BERT_large_model_file bert-large-uncased
+
+SEED 1033
+
+SPACY_FEATURE
+CONTEXT_RNN_HIDDEN_DIM 300
+
+MAX_WORD_PER_SENTENCE 30
+
+BERT_model_file
+
+INIT_WORD_EMBEDDING_FILE
+
+MINI_BATCH
+
+EPOCH
+
+grad_clipping
+
+hidden_size
+
+flow_hidden_size
+
+
+FEATURE_FLODER 
+
